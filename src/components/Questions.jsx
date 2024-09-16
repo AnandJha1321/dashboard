@@ -1,6 +1,6 @@
 import React from 'react'
-import Filter from './Filter'
 import Box from './Box'
+import Tags from './Tags'
 
 const Questions = () => {
   return (
@@ -18,7 +18,7 @@ const Questions = () => {
               className='w-[766px] h-[56px] bg-gradient-to-r  from-[#0e1116] to-[#090b0e] text-[#7B8EC8] text-[16px] pl-4 rounded-[10px] 
               focus:outline-none focus:ring-2 focus:ring-[#2b2d35] font-[inter]'
             />
-          <Filter />
+          <Tags />
       </div>  
 
       <div className='mt-4 min-h-screen'>

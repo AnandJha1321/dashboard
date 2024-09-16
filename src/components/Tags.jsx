@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Filter = () => {
+const Tags = () => {
     const filterOptions = [
         {id: 1, option: "Newest"},
         {id: 2, option: "Recommended Questions"},
@@ -26,4 +26,4 @@ const Filter = () => {
   )
 }
 
-export default Filter
+export default Tags
